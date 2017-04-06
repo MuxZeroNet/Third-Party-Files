@@ -23,7 +23,10 @@ As of **April 6, 2017**, these libraries are included in `ZeroNet/src/lib/`.
 | **Inactive** | [pyelliptic](https://github.com/yann2192/pyelliptic) | Aug 31, 2015 | Dec 10, 2015 |
 | **Too Old** | [Python-RSA](https://github.com/sybrenstuvel/python-rsa) | Mar 29, 2016 (3.4.2) | Jan 4, 2016 (3.1.1) |
 | Inactive | [subtl](https://github.com/packetloop/subtl) | Oct 10, 2012 | Jan 19, 2016 |
-| Too Old | [CoffeeScript compiler](https://github.com/jashkenas/coffeescript) | Feb 18, 2017 (1.12.4) | Oct 19, 2015 (1.10.0)
+
+These libraries are included in `ZeroNet/tools/coffee/`.
+
+| Too Old | [CoffeeScript compiler](https://github.com/jashkenas/coffeescript) | Feb 18, 2017 (1.12.4) | Oct 19, 2015 (1.10.0) |
 
 ## Included in ZeroBundle Windows
 As of **April 6, 2017**, these libraries are included in `ZeroBundle/dist/ZeroBundle-win.zip`.
