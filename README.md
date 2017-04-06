@@ -26,7 +26,7 @@ As of **April 6, 2017**, these libraries are included in `ZeroNet/src/lib/`.
 | Too Old | [CoffeeScript compiler](https://github.com/jashkenas/coffeescript) | Feb 18, 2017 (1.12.4) | Oct 19, 2015 (1.10.0)
 
 ## Included in ZeroBundle Windows
-As of **April 6, 2017**, these libraries are included in `ZeroNet/src/lib/`.
+As of **April 6, 2017**, these libraries are included in `ZeroBundle/dist/ZeroBundle-win.zip`.
 
 | Status | Included library | Library last release | Library last updated in ZeroNet |
 | ------ | ---------------- | -------------------- | ------------------------------- |
