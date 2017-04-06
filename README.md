@@ -24,11 +24,12 @@ As of **April 6, 2017**, these libraries are included in `ZeroNet/src/lib/`.
 | **Too Old** | [Python-RSA](https://github.com/sybrenstuvel/python-rsa) | Mar 29, 2016 (3.4.2) | Jan 4, 2016 (3.1.1) |
 | Inactive | [subtl](https://github.com/packetloop/subtl) | Oct 10, 2012 | Jan 19, 2016 |
 
-These libraries are included in `ZeroNet/tools/coffee/`.
+These libraries are included in `ZeroNet/tools/`.
 
 | Status | Included library | Library last release | Library last updated in ZeroNet |
 | ------ | ---------------- | -------------------- | ------------------------------- |
 | Too Old | [CoffeeScript compiler](https://github.com/jashkenas/coffeescript) | Feb 18, 2017 (1.12.4) | Oct 19, 2015 (1.10.0) |
+| Note | [Tor](https://torproject.org) | Will download from TorProject.org | The user has to [manually update](https://github.com/HelloZeroNet/ZeroNet/blob/master/tools/tor/manual_install.txt) Tor |
 
 ## Included in ZeroBundle Windows
 As of **April 6, 2017**, these libraries are included in `ZeroBundle/dist/ZeroBundle-win.zip`.
