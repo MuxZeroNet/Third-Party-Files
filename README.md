@@ -39,6 +39,5 @@ As of **April 6, 2017**, these libraries are included in `ZeroBundle/dist/ZeroBu
 | OK | [Python](https://python.org) | 2.7.12 | 2.7.12 |
 | todo | [gevent](https://pypi.python.org/pypi/gevent#downloads) | Jan 12, 2017 | ? |
 | todo | [msgpack-python](https://github.com/msgpack/msgpack-python) | Mar 12, 2015 (0.4.6) | ? |
-| unclear, is it there? | [Tor](https://torproject.org) | | |
 | todo | More...? | | |
 
