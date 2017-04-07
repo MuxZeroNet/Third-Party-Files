@@ -6,6 +6,9 @@ This repository keeps track of ZeroNet's use of third-party libraries. It lists 
 ## Repository Status
 The current listing is not yet complete.
 
+## News
+**Apr 7, 2017.** A majority of outdated libraries are being replaced with up-to-date libraries. In addition, the ZeroNet developer plans to remove the unmaintained BitcoinEEC library from the source code. Users and packagers should update ZeroNet.
+
 ## Included in ZeroNet
 As of **April 6, 2017**, these libraries are included in `ZeroNet/src/lib/`.
 
