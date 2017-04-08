@@ -9,13 +9,15 @@ The current listing is not yet complete.
 ## News
 **Apr 7, 2017.** A majority of outdated libraries are being replaced with up-to-date libraries. In addition, the ZeroNet developer plans to remove the unmaintained BitcoinEEC library from the source code. Users and packagers should update ZeroNet.
 
+**Apr 8, 2017.** ZeroNet on Windows now uses OpenDEC compiled OpenSSL binaries. A slightly older PySocks library is used in ZeroNet source code due to compatibility issues.
+
 ## Included in ZeroNet
-As of **April 7, 2017**, these libraries are included in `ZeroNet/src/lib/`.
+As of **April 8, 2017**, these libraries are included in `ZeroNet/src/lib/`.
 
 | Status | Included library | Library last release | Library last updated in ZeroNet |
 | ------ | ---------------- | -------------------- | ------------------------------- |
 | **Inactive** | [BitcoinECC](https://github.com/HurlSly/BitcoinECCPython) | 2 years ago | 2 years ago |
-| OK | [PySocks](https://github.com/Anorov/PySocks) | Mar 23, 2017 (1.6.7) | Apr 6, 2017 (1.6.7) |
+| OK | [PySocks](https://github.com/Anorov/PySocks) | Mar 23, 2017 (1.6.7) | Apr 8, 2017 **(1.5.3)** |
 | ? | bencode | ? | 2 years ago |
 | ? | cssvendor | ? | 1 year ago |
 | OK | [gevent-websocket](https://github.com/jgelens/gevent-websocket/releases) | Mar 12, 2017 (0.10.1) | Apr 6, 2017 (0.10.1) |
