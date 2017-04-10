@@ -9,7 +9,7 @@ The current listing is not yet complete.
 ## News
 **Apr 7, 2017.** A majority of outdated libraries are being replaced with up-to-date libraries. In addition, the ZeroNet developer plans to remove the unmaintained BitcoinEEC library from the source code. Users and packagers should update ZeroNet.
 
-**Apr 8, 2017.** ZeroNet on Windows now uses OpenDEC compiled OpenSSL binaries. The old PySocks library is used in ZeroNet source code due to compatibility issues.
+**Apr 8, 2017.** ZeroNet on Windows now uses OpenDEC compiled OpenSSL binaries. The old PySocks library is used in ZeroNet source code due to compatibility issues. [Help us investigate it.](https://github.com/HelloZeroNet/ZeroNet/issues/893)
 
 ## Included in ZeroNet
 As of **April 8, 2017**, these libraries are included in `ZeroNet/src/lib/`.
