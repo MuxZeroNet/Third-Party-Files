@@ -9,10 +9,10 @@ The current listing is not yet complete.
 ## News
 **Apr 7, 2017.** A majority of outdated libraries are being replaced with up-to-date libraries. In addition, the ZeroNet developer plans to remove the unmaintained BitcoinEEC library from the source code. Users and packagers should update ZeroNet.
 
-**Apr 8, 2017.** ZeroNet on Windows now uses OpenDEC compiled OpenSSL binaries. The old PySocks library is used in ZeroNet source code due to compatibility issues. [Help us investigate it.](https://github.com/HelloZeroNet/ZeroNet/issues/893)
+**Apr 8, 2017.** ZeroNet on Windows now uses OpenDEC compiled OpenSSL binaries. The old PySocks library is used in ZeroNet source code due to a monkey patching issue. [Help us investigate it.](https://github.com/HelloZeroNet/ZeroNet/issues/893)
 
 ## Included in ZeroNet
-As of **April 8, 2017**, these libraries are included in `ZeroNet/src/lib/`.
+As of **April 14, 2017**, these libraries are included in `ZeroNet/src/lib/`.
 
 | Status | Included library | Library last release | Library last updated in ZeroNet |
 | ------ | ---------------- | -------------------- | ------------------------------- |
@@ -33,16 +33,16 @@ These libraries are included in `ZeroNet/tools/`.
 
 | Status | Included library | Library last release | Library last updated in ZeroNet |
 | ------ | ---------------- | -------------------- | ------------------------------- |
-| OK | [CoffeeScript compiler](https://github.com/jashkenas/coffeescript) | Feb 18, 2017 (1.12.4) | Apr 6, 2017 (1.12.4) |
+| Outdated | [CoffeeScript compiler](https://github.com/jashkenas/coffeescript) | Apr 10, 2017 (1.12.5) | Apr 6, 2017 (1.12.4) |
 | Note | [Tor](https://torproject.org) | Will download from TorProject.org | The user has to [manually update](https://github.com/HelloZeroNet/ZeroNet/blob/master/tools/tor/manual_install.txt) Tor |
 
 ## Included in ZeroBundle Windows
-As of **April 6, 2017**, these libraries are included in `ZeroBundle/dist/ZeroBundle-win.zip`.
+As of **April 14, 2017**, these libraries are included in `ZeroBundle/dist/ZeroBundle-win.zip`.
 
 | Status | Included library | Library last release | Library last updated in ZeroNet |
 | ------ | ---------------- | -------------------- | ------------------------------- |
-| OK | [Python](https://python.org) | 2.7.12 | 2.7.12 |
-| todo | [gevent](https://pypi.python.org/pypi/gevent#downloads) | Jan 12, 2017 | ? |
+| OK | [Python](https://python.org) | 2.7.13 | 2.7.12 |
+| todo | [gevent](https://pypi.python.org/pypi/gevent#downloads) | Jan 12, 2017 (1.2.1) | ? |
 | todo | [msgpack-python](https://github.com/msgpack/msgpack-python) | Mar 12, 2015 (0.4.6) | ? |
 | todo | More...? | | |
 
