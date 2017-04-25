@@ -11,8 +11,12 @@ The current listing is not yet complete.
 
 **Apr 8, 2017.** ZeroNet on Windows now uses OpenDEC compiled OpenSSL binaries. The old PySocks library is used in ZeroNet source code due to a monkey patching issue. [Help us investigate it.](https://github.com/HelloZeroNet/ZeroNet/issues/893)
 
+**Apr 25, 2017** PyElliptic has been **abandoned**. Developers, please consider using another wrapper or crypto library, such as [pyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), [cryptography](https://cryptography.io/en/latest/), [PyNaCl](https://pynacl.readthedocs.io/) or [pySodium](https://github.com/stef/pysodium).
+
+Here is a crypto library choice discussion among Ethereum devlopers: <https://github.com/ethereum/pydevp2p/issues/58>
+
 ## Included in ZeroNet
-As of **April 14, 2017**, these libraries are included in `ZeroNet/src/lib/`.
+As of **April 25, 2017**, these libraries are included in `ZeroNet/src/lib/`.
 
 | Status | Included library | Library last release | Library last updated in ZeroNet |
 | ------ | ---------------- | -------------------- | ------------------------------- |
@@ -25,7 +29,7 @@ As of **April 14, 2017**, these libraries are included in `ZeroNet/src/lib/`.
 | **Old** | [opensslVerify](https://github.com/Bitmessage/PyBitmessage/blob/master/src/pyelliptic/openssl.py) | Feb 18, 2017 | Jan 22, 2017 |
 | OK | [pyasn1](https://github.com/etingof/pyasn1) | Apr 6, 2017 (0.2.4) | Apr 6, 2017 (0.2.4) |
 | OK | [pybitcointools](https://github.com/vbuterin/pybitcointools) | Nov 22, 2016 (1.1.42) | Apr 6, 2017 (1.1.42) |
-| **Inactive** | [pyelliptic](https://github.com/yann2192/pyelliptic) | Aug 31, 2015 (1.5.7) | Apr 6, 2017 |
+| **DEPRECATED** | [pyelliptic](https://github.com/yann2192/pyelliptic/issues/50#issuecomment-297018932) | Aug 31, 2015 (1.5.7) | Apr 6, 2017 |
 | OK | [Python-RSA](https://github.com/sybrenstuvel/python-rsa) | Mar 29, 2016 (3.4.2) | Apr 6, 2017 (3.4.2) |
 | Inactive | [subtl](https://github.com/packetloop/subtl) | Oct 10, 2012 | Jan 19, 2016 |
 
