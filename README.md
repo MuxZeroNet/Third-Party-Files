@@ -11,9 +11,7 @@ The current listing is not yet complete.
 
 **Apr 8, 2017.** ZeroNet on Windows now uses OpenDEC compiled OpenSSL binaries. The old PySocks library is used in ZeroNet source code due to a monkey patching issue. [Help us investigate it.](https://github.com/HelloZeroNet/ZeroNet/issues/893)
 
-**Apr 25, 2017** PyElliptic has been **abandoned**. Developers, please consider using another wrapper or crypto library, such as [pyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), [cryptography](https://cryptography.io/en/latest/), [PyNaCl](https://pynacl.readthedocs.io/) or [pySodium](https://github.com/stef/pysodium).
-
-Here is a crypto library choice discussion among Ethereum devlopers: <https://github.com/ethereum/pydevp2p/issues/58>
+**Apr 25, 2017.** PyElliptic has been **abandoned**. Developers, please consider using another wrapper or crypto library, such as [pyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), [cryptography](https://cryptography.io/en/latest/), [PyNaCl](https://pynacl.readthedocs.io/) or [pySodium](https://github.com/stef/pysodium). Here is a crypto library choice discussion among Ethereum devlopers: [ethereum/pydevp2p#58](https://github.com/ethereum/pydevp2p/issues/58)
 
 ## Included in ZeroNet
 As of **April 25, 2017**, these libraries are included in `ZeroNet/src/lib/`.
