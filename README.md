@@ -14,7 +14,7 @@ The current listing is not yet complete.
 **Apr 25, 2017.** PyElliptic has been **abandoned**. Developers, please consider using another wrapper or crypto library, such as [pyOpenSSL](https://pypi.python.org/pypi/pyOpenSSL), [cryptography](https://cryptography.io/en/latest/), [PyNaCl](https://pynacl.readthedocs.io/) or [pySodium](https://github.com/stef/pysodium). Here is a crypto library choice discussion among Ethereum devlopers: [ethereum/pydevp2p#58](https://github.com/ethereum/pydevp2p/issues/58)
 
 ## Included in ZeroNet
-As of **May 15, 2017**, these libraries are included in `ZeroNet/src/lib/`.
+As of **June 24, 2017**, these libraries are included in `ZeroNet/src/lib/`.
 
 | Status | Included library | Library last release | Library last updated in ZeroNet |
 | ------ | ---------------- | -------------------- | ------------------------------- |
@@ -23,7 +23,7 @@ As of **May 15, 2017**, these libraries are included in `ZeroNet/src/lib/`.
 | ? | bencode | ? | 2 years ago |
 | ? | cssvendor | ? | 1 year ago |
 | OK | [gevent-websocket](https://github.com/jgelens/gevent-websocket/releases) | Mar 12, 2017 (0.10.1) | Apr 6, 2017 (0.10.1) |
-| OK | [OpenSSL](https://www.openssl.org/source/) Win32 | Jan 26, 2017 (1.0.2k) | Apr 6, 2017 (1.0.2k) |
+| **Outdated** | [OpenSSL](https://www.openssl.org/source/) Win32 | May 25, 2017 (1.0.2l) | Apr 6, 2017 (1.0.2k) |
 | **Old** | [opensslVerify](https://github.com/Bitmessage/PyBitmessage/blob/master/src/pyelliptic/openssl.py) | Feb 18, 2017 | Jan 22, 2017 |
 | OK | [pyasn1](https://github.com/etingof/pyasn1) | Apr 6, 2017 (0.2.4) | Apr 6, 2017 (0.2.4) |
 | OK | [pybitcointools](https://github.com/vbuterin/pybitcointools) | Nov 22, 2016 (1.1.42) | Apr 6, 2017 (1.1.42) |
@@ -39,12 +39,12 @@ These libraries are included in `ZeroNet/tools/`.
 | Note | [Tor](https://torproject.org) | Will download from TorProject.org | The user has to [manually update](https://github.com/HelloZeroNet/ZeroNet/blob/master/tools/tor/manual_install.txt) Tor |
 
 ## Included in ZeroBundle Windows
-As of **May 15, 2017**, these libraries are included in `ZeroBundle/dist/ZeroBundle-win.zip`.
+As of **June 24, 2017**, these libraries are included in `ZeroBundle/dist/ZeroBundle-win.zip`.
 
 | Status | Included library | Library last release | Library last updated in ZeroNet |
 | ------ | ---------------- | -------------------- | ------------------------------- |
 | OK | [Python](https://python.org) | 2.7.13 | 2.7.12 |
-| todo | [gevent](https://pypi.python.org/pypi/gevent#downloads) | Jan 12, 2017 (1.2.1) | ? |
+| todo | [gevent](https://pypi.python.org/pypi/gevent#downloads) | Jun 5, 2017 (1.2.2) | ? |
 | todo | [msgpack-python](https://github.com/msgpack/msgpack-python) | Mar 12, 2015 (0.4.6) | ? |
 | todo | More...? | | |
 
