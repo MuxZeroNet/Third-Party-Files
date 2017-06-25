@@ -35,7 +35,7 @@ These libraries are included in `ZeroNet/tools/`.
 
 | Status | Included library | Library last release | Library last updated in ZeroNet |
 | ------ | ---------------- | -------------------- | ------------------------------- |
-| Outdated | [CoffeeScript compiler](https://github.com/jashkenas/coffeescript) | May 15, 2017 (1.12.6) | Apr 6, 2017 (1.12.4) |
+| OK | [CoffeeScript compiler](https://github.com/jashkenas/coffeescript) | May 15, 2017 (1.12.6) | Jun 13, 2017 (1.12.6) |
 | Note | [Tor](https://torproject.org) | Will download from TorProject.org | The user has to [manually update](https://github.com/HelloZeroNet/ZeroNet/blob/master/tools/tor/manual_install.txt) Tor |
 
 ## Included in ZeroBundle Windows
